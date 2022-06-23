@@ -4,7 +4,7 @@ $ git status
 On branch master
 
 No commits yet
-
+    
 Changes to be committed:
   (use "git rm --cached <file>..." to unstage)
         new file:   index.html
