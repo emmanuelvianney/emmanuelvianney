@@ -1,0 +1,127 @@
+
+Emmanuel Mungai@LenovoQP MINGW64 ~/Desktop/task app (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+        new file:   index.js
+        new file:   style.css
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+        modified:   index.js
+        modified:   style.css
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        git.txt
+        login.html
+
+
+Emmanuel Mungai@LenovoQP MINGW64 ~/Desktop/task app (master)
+$ git add .
+
+Emmanuel Mungai@LenovoQP MINGW64 ~/Desktop/task app (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   git.txt
+        new file:   index.html
+        new file:   index.js
+        new file:   login.html
+        new file:   style.css
+
+
+Emmanuel Mungai@LenovoQP MINGW64 ~/Desktop/task app (master)
+$ git add .
+
+Emmanuel Mungai@LenovoQP MINGW64 ~/Desktop/task app (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   git.txt
+        new file:   index.html
+        new file:   index.js
+        new file:   login.html
+        new file:   style.css
+
+
+Emmanuel Mungai@LenovoQP MINGW64 ~/Desktop/task app (master)
+$ git add .
+
+Emmanuel Mungai@LenovoQP MINGW64 ~/Desktop/task app (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   git.txt
+        new file:   index.html
+        new file:   index.js
+        new file:   login.html
+        new file:   style.css
+
+
+Emmanuel Mungai@LenovoQP MINGW64 ~/Desktop/task app (master)
+$ git config --global user.nanme 'emmanuelvianney'
+
+Emmanuel Mungai@LenovoQP MINGW64 ~/Desktop/task app (master)
+$ git config --global user.email 'evmungai@gmail.com'
+
+Emmanuel Mungai@LenovoQP MINGW64 ~/Desktop/task app (master)
+$ git commit -m 'created html and css files'
+[master (root-commit) 60a4b5e] created html and css files
+ 5 files changed, 275 insertions(+)
+ create mode 100644 git.txt
+ create mode 100644 index.html
+ create mode 100644 index.js
+ create mode 100644 login.html
+ create mode 100644 style.css
+
+Emmanuel Mungai@LenovoQP MINGW64 ~/Desktop/task app (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Emmanuel Mungai@LenovoQP MINGW64 ~/Desktop/task app (master)
+$ git remote
+
+Emmanuel Mungai@LenovoQP MINGW64 ~/Desktop/task app (master)
+$ git remote add origin https://github.com/emmanuelvianney/emmanuelvianney.git
+
+Emmanuel Mungai@LenovoQP MINGW64 ~/Desktop/task app (master)
+$ git remote
+origin
+
+Emmanuel Mungai@LenovoQP MINGW64 ~/Desktop/task app (master)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/emmanuelvianney/emmanuelvianney.git'
+
+Emmanuel Mungai@LenovoQP MINGW64 ~/Desktop/task app (master)
+$ git push -u origin master
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 2.78 KiB | 949.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/emmanuelvianney/emmanuelvianney.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
